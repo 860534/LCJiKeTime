@@ -4,7 +4,7 @@ public class Day08_2 {
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1,null);
         Class<? extends ListNode> aClass = listNode.getClass();
-        aClass.
+//        aClass.
 
     }
 
