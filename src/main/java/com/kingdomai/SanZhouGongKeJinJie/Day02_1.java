@@ -15,7 +15,7 @@ public class Day02_1 {
         int min = 0;
         int max = nums.length - 1;
         for (int i = 0; i <= max; i++) {
-            if (i <= max &&nums[i] == 2){
+            while (i <= max &&nums[i] == 2){
 //                int temp = nums[i];
                 nums[i] = nums[max];
                 nums[max] = 2;
