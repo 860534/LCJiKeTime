@@ -1,9 +1,7 @@
 package com.kingdomai.SanZhouGongKeJinJie;
 
 public class Day03_3 {
-    public static void main(String[] args) {
 
-    }
 
     public int[][] generateMatrix(int n) {
         int begin = 1;

@@ -1,4 +1,4 @@
-package com.kingdomai;
+package com.kingdomai.sanZhouGongKe;
 
 public class Day08_1 {
     public static void main(String[] args) {
@@ -28,10 +28,10 @@ public class Day08_1 {
 
     public static class ListNode{
         int val;
-        Day07_3.ListNode next;
+        com.kingdomai.Day07_3.ListNode next;
         ListNode() {}
         ListNode(int val) {this.val = val;}
-        ListNode(int val, Day07_3.ListNode next){this.val = val; this.next = next;}
+        ListNode(int val, com.kingdomai.Day07_3.ListNode next){this.val = val; this.next = next;}
 
         @Override
         public String toString() {
