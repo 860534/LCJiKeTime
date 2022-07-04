@@ -11,9 +11,14 @@ public class Day11_2 {
         while (newHead.next != null && newHead.next.next != null) {
             if (newHead.next.val == newHead.next.next.val) {
                 int x = newHead.next.val;
-                while (newHead.next != null && )
+                while (newHead.next != null && newHead.next.val == x) {
+                    newHead.next = newHead.next.next;
+                }
+            } else {
+                newHead = newHead.next;
             }
         }
+        return dummy.next;
 //        ListNode listNode = head;
 //        Boolean isRepetition = false;
 //        while (head.next != null) {
@@ -24,6 +29,6 @@ public class Day11_2 {
 //
 //            }
 //        }
-        return null;
+
     }
 }
